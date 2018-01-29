@@ -14,7 +14,12 @@
 		<Item Name="Command.ctl" Type="VI" URL="../Command.ctl"/>
 		<Item Name="MessageQueueData.ctl" Type="VI" URL="../MessageQueueData.ctl"/>
 		<Item Name="Position.ctl" Type="VI" URL="../Position.ctl"/>
-		<Item Name="Dependencies" Type="Dependencies"/>
+		<Item Name="WashState.ctl" Type="VI" URL="../WashState.ctl"/>
+		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="EnqueueDeluxeWash.vi" Type="VI" URL="../EnqueueDeluxeWash.vi"/>
+			<Item Name="EnqueueEconomyWash.vi" Type="VI" URL="../EnqueueEconomyWash.vi"/>
+			<Item Name="HandleWash.vi" Type="VI" URL="../HandleWash.vi"/>
+		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 </Project>
