@@ -11,21 +11,24 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Source" Type="Folder">
+			<Item Name="TypeDefs" Type="Folder">
+				<Item Name="Command.ctl" Type="VI" URL="../Command.ctl"/>
+				<Item Name="MessageQueueData.ctl" Type="VI" URL="../MessageQueueData.ctl"/>
+				<Item Name="Position.ctl" Type="VI" URL="../Position.ctl"/>
+				<Item Name="WashState.ctl" Type="VI" URL="../WashState.ctl"/>
+			</Item>
 			<Item Name="CarWash.vi" Type="VI" URL="../CarWash.vi"/>
-			<Item Name="Command.ctl" Type="VI" URL="../Command.ctl"/>
 			<Item Name="Create Message Queue.vi" Type="VI" URL="../Tests/CarWashTestCases/Create Message Queue.vi"/>
 			<Item Name="EnqueueDeluxeWash.vi" Type="VI" URL="../EnqueueDeluxeWash.vi"/>
 			<Item Name="EnqueueEconomyWash.vi" Type="VI" URL="../EnqueueEconomyWash.vi"/>
 			<Item Name="HandleWash.vi" Type="VI" URL="../HandleWash.vi"/>
-			<Item Name="MessageQueueData.ctl" Type="VI" URL="../MessageQueueData.ctl"/>
-			<Item Name="Position.ctl" Type="VI" URL="../Position.ctl"/>
 			<Item Name="Wash State For Command.vi" Type="VI" URL="../Tests/CarWashTestCases/Wash State For Command.vi"/>
-			<Item Name="WashState.ctl" Type="VI" URL="../WashState.ctl"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="CarWashTestCases.lvclass" Type="LVClass" URL="../Tests/CarWashTestCases/CarWashTestCases.lvclass"/>
 			<Item Name="CarWashTestSuite.lvclass" Type="LVClass" URL="../Tests/CarWashTestSuite/CarWashTestSuite.lvclass"/>
 		</Item>
+		<Item Name="Get Wash State From Variant.vi" Type="VI" URL="../Tests/CarWashTestCases/Get Wash State From Variant.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Array Size(s)__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Array Size(s)__ogtk__jki_vi_tester.vi"/>
