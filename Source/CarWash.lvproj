@@ -11,6 +11,8 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="CarWash.vi" Type="VI" URL="../CarWash.vi"/>
+		<Item Name="Command.ctl" Type="VI" URL="../Command.ctl"/>
+		<Item Name="MessageQueueData.ctl" Type="VI" URL="../MessageQueueData.ctl"/>
 		<Item Name="Position.ctl" Type="VI" URL="../Position.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
