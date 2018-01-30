@@ -27,6 +27,7 @@
 			<Item Name="EnqueueEconomyWash.vi" Type="VI" URL="../EnqueueEconomyWash.vi"/>
 			<Item Name="Get Wash State From Variant.vi" Type="VI" URL="../Tests/CarWashTestCases/Get Wash State From Variant.vi"/>
 			<Item Name="HandleWash.vi" Type="VI" URL="../HandleWash.vi"/>
+			<Item Name="PrintNewLineToCLI.vi" Type="VI" URL="../PrintNewLineToCLI.vi"/>
 			<Item Name="Wash State For Command.vi" Type="VI" URL="../Tests/CarWashTestCases/Wash State For Command.vi"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
@@ -396,7 +397,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8F6F26F8-F4B8-4C06-956A-4A9D1F82955C}</Property>
-				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Application.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/My Application/Application.exe</Property>
