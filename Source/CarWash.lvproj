@@ -25,6 +25,7 @@
 			<Item Name="Create Message Queue.vi" Type="VI" URL="../Tests/CarWashTestCases/Create Message Queue.vi"/>
 			<Item Name="EnqueueDeluxeWash.vi" Type="VI" URL="../EnqueueDeluxeWash.vi"/>
 			<Item Name="EnqueueEconomyWash.vi" Type="VI" URL="../EnqueueEconomyWash.vi"/>
+			<Item Name="Get Wash State From Variant.vi" Type="VI" URL="../Tests/CarWashTestCases/Get Wash State From Variant.vi"/>
 			<Item Name="HandleWash.vi" Type="VI" URL="../HandleWash.vi"/>
 			<Item Name="Wash State For Command.vi" Type="VI" URL="../Tests/CarWashTestCases/Wash State For Command.vi"/>
 		</Item>
@@ -34,7 +35,6 @@
 			<Item Name="RunTests.vi" Type="VI" URL="../Tests/RunTests.vi"/>
 			<Item Name="RunTestsFromCmdLine.vi" Type="VI" URL="../Tests/RunTestsFromCmdLine.vi"/>
 		</Item>
-		<Item Name="Get Wash State From Variant.vi" Type="VI" URL="../Tests/CarWashTestCases/Get Wash State From Variant.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="_TextTestResult.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_TextTestResult.llb/_TextTestResult.lvclass"/>
