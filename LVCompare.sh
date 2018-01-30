@@ -13,4 +13,4 @@ local=$(abspath "$1")
 remote=$(abspath "$2")
 
 echo "Comparing $local to $remote"
-exec "$lvcompare" "$local" "$remote"
+exec "$lvcompare" "$local" "$remote" -nofppos -nobdcosm -nobdpos
